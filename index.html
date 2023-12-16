@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post Application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>POSTS</h1>
+      <div>
+        <input type="text" id="searchInput" placeholder="Search by body or title" />
+      </div>
+    </header>
+
+    <main>
+      <section class="posts-container"></section>
+
+      <aside>
+        <div class="modal" id="modal">
+          <div class="modal-container">
+            <div class="modal-header">
+              <h2 class="modal-header-title"></h2>
+              <button class="modal-close-btn">&times;</button>
+            </div>
+            <div class="comments"></div>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <footer></footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
